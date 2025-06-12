@@ -49,6 +49,7 @@ Nos dados de treino e teste:
 - A coluna "target" indica se uma reclamação (sinistro) foi feita ou não para aquele titular da apólice.
 
 O arquivo train.csv contém os dados de treino, onde cada linha corresponde a um titular de apólice, e a coluna "target" indica que uma reclamação foi feita.
+
 O arquivo test.csv contém os dados de teste. <br><br>
 
 
