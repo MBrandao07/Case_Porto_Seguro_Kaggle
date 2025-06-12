@@ -76,3 +76,22 @@ O arquivo test.csv contém os dados de teste. <br><br>
 
 ## **Escoragem**
 
+- Substituir todos os -1 por "missing" nos dataframes de treino e teste
+- Retirar as variáveis com alto índice de nulos
+- Retirar ID e Target das tabelas treino e teste
+- Substituir os nulos pela média nas tabelas de treino e treino
+- Padronizar os dados nas tabelas de treino e teste
+- Realizar o feature selection nas tabelas de treino e teste
+- Carregar o modelo que apresentou o melhor desempenho na modelagem
+- Escorar as bases de treino e teste
+- Entender em qual modelo os dados devem ser submetidos no Kaggle
+- Submeter os dados no Kaggle
+
+
+## **Resultado Kaggle**
+
+A primeira versão resultou em um score de 0.21563 no Kaggle.
+
+Inicialmente esse resultado está razoável, porém podemos utilizar um blend de LightGBM + Rede Neural para aumentar consideravelmente esse score.
+
+Obs.: Assim que postar uma nova versão eu atualizo o Readme com o novo score.
